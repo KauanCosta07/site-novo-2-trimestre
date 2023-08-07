@@ -1,0 +1,24 @@
+.divconteudo {
+    color: var(--brancoo);
+    padding: 24px;
+}
+
+.textotitulo {
+    padding: 24px;
+    font-weight: 700;
+}
+
+.textoimagem {
+    width: 40vw;
+}
+
+.corpoimagem {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 428px) {
+    .corpoimagem {
+        display: none;
+}
+}

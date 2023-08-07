@@ -1,0 +1,20 @@
+@import url(styles/header.css);
+@import url(styles/body.css);
+@import url(styles/rodapé.css);
+
+
+:root {
+    --cor-de-fundo: #006437;
+    --branco: #cfd2d4;
+    --brancoo: #ffffff;
+    --preto: #000000;
+    --fonte-principal: "Kanit";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
